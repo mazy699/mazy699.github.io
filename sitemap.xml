@@ -3,11 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mazy699.github.io/categories/</loc>
+    <loc>https://mazy699.github.io/</loc>
+    <lastmod>2021-02-06T21:25:35+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mazy699.github.io/</loc>
+    <loc>https://mazy699.github.io/p/my-first-post/</loc>
+    <lastmod>2021-02-06T21:25:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/post/</loc>
+    <lastmod>2021-02-06T21:25:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/categories/</loc>
   </url>
   
   <url>
