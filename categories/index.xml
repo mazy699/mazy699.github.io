@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Example Site</title>
+    <title>Categories on Mazy——有点意思的博客</title>
     <link>https://mazy699.github.io/categories/</link>
-    <description>Recent content in Categories on Example Site</description>
+    <description>Recent content in Categories on Mazy——有点意思的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://mazy699.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>Mazy——有点意思的博客</copyright>
+    <lastBuildDate>Fri, 08 Jan 2021 23:55:51 +0800</lastBuildDate><atom:link href="https://mazy699.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试</title>
+      <link>https://mazy699.github.io/categories/%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Fri, 08 Jan 2021 23:55:51 +0800</pubDate>
+      
+      <guid>https://mazy699.github.io/categories/%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

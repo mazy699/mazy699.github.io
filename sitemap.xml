@@ -1,28 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="https://mazy699.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mazy699.github.io/</loc>
-    <lastmod>2021-02-06T21:25:35+08:00</lastmod>
+    <loc>https://mazy699.github.io/categories/</loc>
+    <lastmod>2021-01-08T23:55:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://mazy699.github.io/p/my-first-post/</loc>
-    <lastmod>2021-02-06T21:25:35+08:00</lastmod>
+    <loc>https://mazy699.github.io/</loc>
+    <lastmod>2021-01-08T23:55:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/post/my-first-post/</loc>
+    <lastmod>2021-01-08T23:55:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/post/</loc>
-    <lastmod>2021-02-06T21:25:35+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mazy699.github.io/categories/</loc>
+    <lastmod>2021-01-08T23:55:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/tags/</loc>
+    <lastmod>2021-01-08T23:55:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/test/</loc>
+    <lastmod>2021-01-08T23:55:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2021-01-08T23:55:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
