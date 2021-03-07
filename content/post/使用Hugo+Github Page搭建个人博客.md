@@ -2,7 +2,7 @@
 title: "使用Hugo+Github Page搭建个人博客"
 date: 2021-02-10T23:17:19+08:00
 lastmod: 2021-02-10T23:17:19+08:00
-draft: true
+draft: false
 keywords: ["Hugo","Github Page","博客"]
 description: "使用Hugo+Github Page搭建个人博客"
 tags: ["Hugo","Github"]
