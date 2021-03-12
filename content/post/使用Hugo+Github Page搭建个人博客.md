@@ -40,7 +40,7 @@ sequenceDiagrams:
 typora-root-url: ..\..\static
 ---
 
-> 记录一下在使用Hugo+Github Page搭建个人博客的过程，以及碰到的问题和解决方法。
+记录一下在使用Hugo+Github Page搭建个人博客的过程，以及碰到的问题和解决方法。
 
 <!--more-->
 

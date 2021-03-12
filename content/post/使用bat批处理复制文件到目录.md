@@ -3,7 +3,7 @@ title: "使用bat批处理复制文件到目录"
 date: 2021-03-11T23:09:08+08:00
 lastmod: 2021-03-11T23:09:08+08:00
 draft: false
-keywords: ["bat","技巧"]
+keywords: ["bat批处理","技巧"]
 description: "使用bat批处理读取txt文件中的文件名list，并将文件复制到指定目录下。"
 tags: ["bat批处理","技巧"]
 categories: ["经验心得"]
