@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>博客园代码高亮自定义 - Mazy——有点意思的博客</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Mazy" /><meta name="description" content="" /><meta name="keywords" content="博客园" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.80.0 with theme even" />
+
+
+<link rel="canonical" href="https://mazy699.github.io/post/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="/sass/main.min.b5a744db6de49a86cadafb3b70f555ab443f83c307a483402259e94726b045ff.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="博客园代码高亮自定义" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mazy699.github.io/post/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/" />
+<meta property="article:published_time" content="2021-03-13T23:57:34+08:00" />
+<meta property="article:modified_time" content="2021-03-13T23:57:34+08:00" />
+<meta itemprop="name" content="博客园代码高亮自定义">
+<meta itemprop="description" content="">
+<meta itemprop="datePublished" content="2021-03-13T23:57:34+08:00" />
+<meta itemprop="dateModified" content="2021-03-13T23:57:34+08:00" />
+<meta itemprop="wordCount" content="389">
+
+
+
+<meta itemprop="keywords" content="技巧," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="博客园代码高亮自定义"/>
+<meta name="twitter:description" content=""/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Mazy</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Mazy</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">博客园代码高亮自定义</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-03-13 </span>
+        <div class="post-category">
+            <a href="/categories/%E7%BB%8F%E9%AA%8C%E5%BF%83%E5%BE%97/"> 经验心得 </a>
+            </div>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#自定义高亮样式">自定义高亮样式</a></li>
+        <li><a href="#分享我使用的高亮样式">分享我使用的高亮样式</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="自定义高亮样式">自定义高亮样式</h2>
+<p>在 <a href="https://highlightjs.org/static/demo/">高亮Demo</a> 预览喜欢的高亮样式，比如经典的 <strong>Monokai</strong></p>
+<p><img src="/image/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/Image1.png" alt="Image1"></p>
+<p>然后到 <a href="https://github.com/RealAndMe/blogs-style/tree/master/highlight/styles">GItHub</a> 复制对应名字的CSS源码</p>
+<p><img src="/image/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/Image2.png" alt="Image2"></p>
+<p>粘贴到VS Code进行一些修改将 <code>.hljs</code> 替换为 <code>.cnblogs-markdown .hljs</code> ，</p>
+<p>如果不想代码换行，还可以添加样式</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">pre</span> <span class="p">{</span>
+  <span class="c">/*控制代码不换行*/</span>
+  <span class="k">white-space</span><span class="p">:</span> <span class="kc">pre</span><span class="p">;</span>
+  <span class="k">word-wrap</span><span class="p">:</span> <span class="kc">normal</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>将修改后的CSS代码复制到 <code>我的博客--&gt;管理--&gt;设置界面的页面定制 CSS 代码</code></p>
+<p><img src="/image/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/Image3.png" alt="Image3"></p>
+<p>点击保存，可以测试高亮样式是否生效，如果没有生效，可以给 CSS 代码添加 <code>!important</code> 提升优先级。</p>
+<h2 id="分享我使用的高亮样式">分享我使用的高亮样式</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span><span class="lnt">63
+</span><span class="lnt">64
+</span><span class="lnt">65
+</span><span class="lnt">66
+</span><span class="lnt">67
+</span><span class="lnt">68
+</span><span class="lnt">69
+</span><span class="lnt">70
+</span><span class="lnt">71
+</span><span class="lnt">72
+</span><span class="lnt">73
+</span><span class="lnt">74
+</span><span class="lnt">75
+</span><span class="lnt">76
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-css" data-lang="css"><span class="c">/*
+</span><span class="c">Monokai style - ported by Luigi Maselli - http://grigio.org
+</span><span class="c">*/</span>
+<span class="nt">pre</span> <span class="p">{</span>
+  <span class="c">/*控制代码不换行*/</span>
+  <span class="k">white-space</span><span class="p">:</span> <span class="kc">pre</span><span class="p">;</span>
+  <span class="k">word-wrap</span><span class="p">:</span> <span class="kc">normal</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">cnblogs-markdown</span> <span class="p">.</span><span class="nc">hljs</span> <span class="p">{</span>
+  <span class="k">display</span><span class="p">:</span> <span class="kc">block</span><span class="p">;</span>
+  <span class="k">overflow-x</span><span class="p">:</span> <span class="kc">auto</span><span class="p">;</span>
+  <span class="k">padding</span><span class="p">:</span> <span class="mf">0.5</span><span class="kt">em</span><span class="p">;</span>
+  <span class="k">background</span><span class="p">:</span> <span class="mh">#272822</span> <span class="cp">!important</span><span class="p">;</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#ddd</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">hljs-tag</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-keyword</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-selector-tag</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-literal</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-strong</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-name</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#f92672</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">hljs-code</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#66d9ef</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">hljs-class</span> <span class="p">.</span><span class="nc">hljs-title</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="kc">white</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">hljs-attribute</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-symbol</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-regexp</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-link</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#bf79db</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">hljs-string</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-bullet</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-subst</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-title</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-section</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-emphasis</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-type</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-built_in</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-builtin-name</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-selector-attr</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-selector-pseudo</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-addition</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-variable</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-template-tag</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-template-variable</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#a6e22e</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">hljs-comment</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-quote</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-deletion</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-meta</span> <span class="p">{</span>
+  <span class="k">color</span><span class="p">:</span> <span class="mh">#75715e</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">hljs-keyword</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-selector-tag</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-literal</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-doctag</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-title</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-section</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-type</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">hljs-selector-id</span> <span class="p">{</span>
+  <span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content"><a href="https://mazy699.github.io/about/" class="theme-link">Mazy</a></span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2021-03-13
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/%E6%8A%80%E5%B7%A7/">技巧</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/post/%E6%B2%89%E9%87%8D%E7%9A%84%E6%97%B6%E5%88%BB/">
+            <span class="next-text nav-default">《沉重的时刻》</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:mazhongyuan699@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/mazy699" class="iconfont icon-github" title="github"></a>
+  <a href="https://mazy699.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      
+    
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span><a href="https://mazy699.github.io/about/" class="theme-link">Mazy——有点意思的博客</a></span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.min.js" integrity="sha256-jwCP0NAdCBloaIWTWHmW4i3snUNMHUNO+jr9rYd2iOI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/timeago.js@3.0.2/dist/timeago.locales.min.js" integrity="sha256-ZwofwC1Lf/faQCzN7nZtfijVV6hSwxjQMwXL4gn9qU8=" crossorigin="anonymous"></script>
+  <script><!-- NOTE: timeago.js uses the language code format like "zh_CN" (underscore and case sensitive) -->
+    var languageCode = "en".replace(/-/g, '_').replace(/_(.*)/, function ($0, $1) {return $0.replace($1, $1.toUpperCase());});
+    timeago().render(document.querySelectorAll('.timeago'), languageCode);
+    timeago.cancel();  
+  </script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c12618f9a600c40bd024996677e951e64d3487006775aeb22e200c990006c5c7.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-189244296-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
