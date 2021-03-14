@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>使用bat批处理复制文件到目录 - Mazy——有点意思的博客</title>
+  <title>同时使用Github和Gitee搭建个人博客 - Mazy——有点意思的博客</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Mazy" /><meta name="description" content="使用bat批处理读取txt文件中的文件名list，并将文件复制到指定目录下。" /><meta name="keywords" content="bat批处理, 技巧" />
+<meta name="author" content="Mazy" /><meta name="description" content="同时使用Github和Gitee搭建个人博客" /><meta name="keywords" content="Hugo, Github, Gitee, 博客" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.80.0 with theme even" />
 
 
-<link rel="canonical" href="https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8bat%E6%89%B9%E5%A4%84%E7%90%86%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%88%B0%E7%9B%AE%E5%BD%95/" />
+<link rel="canonical" href="https://mazy699.github.io/post/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,24 +39,24 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="使用bat批处理复制文件到目录" />
-<meta property="og:description" content="使用bat批处理读取txt文件中的文件名list，并将文件复制到指定目录下。" />
+<meta property="og:title" content="同时使用Github和Gitee搭建个人博客" />
+<meta property="og:description" content="同时使用Github和Gitee搭建个人博客" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8bat%E6%89%B9%E5%A4%84%E7%90%86%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%88%B0%E7%9B%AE%E5%BD%95/" />
-<meta property="article:published_time" content="2021-03-11T23:09:08+08:00" />
-<meta property="article:modified_time" content="2021-03-11T23:09:08+08:00" />
-<meta itemprop="name" content="使用bat批处理复制文件到目录">
-<meta itemprop="description" content="使用bat批处理读取txt文件中的文件名list，并将文件复制到指定目录下。">
-<meta itemprop="datePublished" content="2021-03-11T23:09:08+08:00" />
-<meta itemprop="dateModified" content="2021-03-11T23:09:08+08:00" />
-<meta itemprop="wordCount" content="545">
+<meta property="og:url" content="https://mazy699.github.io/post/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
+<meta property="article:published_time" content="2021-03-14T16:21:57+08:00" />
+<meta property="article:modified_time" content="2021-03-14T16:21:57+08:00" />
+<meta itemprop="name" content="同时使用Github和Gitee搭建个人博客">
+<meta itemprop="description" content="同时使用Github和Gitee搭建个人博客">
+<meta itemprop="datePublished" content="2021-03-14T16:21:57+08:00" />
+<meta itemprop="dateModified" content="2021-03-14T16:21:57+08:00" />
+<meta itemprop="wordCount" content="306">
 
 
 
-<meta itemprop="keywords" content="bat批处理,技巧," />
+<meta itemprop="keywords" content="Hugo,Github,Gitee,博客," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="使用bat批处理复制文件到目录"/>
-<meta name="twitter:description" content="使用bat批处理读取txt文件中的文件名list，并将文件复制到指定目录下。"/>
+<meta name="twitter:title" content="同时使用Github和Gitee搭建个人博客"/>
+<meta name="twitter:description" content="同时使用Github和Gitee搭建个人博客"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -133,10 +133,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">使用bat批处理复制文件到目录</h1>
+      <h1 class="post-title">同时使用Github和Gitee搭建个人博客</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-03-11 </span>
+        <span class="post-time"> 2021-03-14 </span>
         <div class="post-category">
             <a href="/categories/%E7%BB%8F%E9%AA%8C%E5%BF%83%E5%BE%97/"> 经验心得 </a>
             </div>
@@ -151,8 +151,8 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#需求">需求</a></li>
-        <li><a href="#示例">示例</a></li>
+        <li><a href="#原因">原因</a></li>
+        <li><a href="#同步操作">同步操作</a></li>
       </ul>
     </li>
   </ul>
@@ -160,101 +160,35 @@
   </div>
 </div>
     <div class="post-content">
-      <p>使用bat批处理读取txt文件中的文件名list，并将文件复制到指定目录下。</p>
-<h2 id="需求">需求</h2>
-<p>想要从有多个深层目录下的众多文件中挑选出部分文件，并且保留目录结构，一个一个去找比较麻烦，就写了这个批处理。</p>
-<h2 id="示例">示例</h2>
-<p>例子中的注释已经比较详细了，直接看就能明白，使用时注意修改 <strong>txt文件名</strong> 和 <strong>目录路径</strong>。</p>
-<p><code>test.bat</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-batch" data-lang="batch"><span class="p">:</span><span class="c1">:声明更改代码页为UTF-8</span>
-chcp 65001
-<span class="p">@</span><span class="k">echo</span> off
-<span class="k">echo</span> ------------------开始---------------------
-<span class="p">:</span><span class="c1">: for循环逐行读取test.txt</span>
-<span class="k">for</span> <span class="k">/f</span>   <span class="se">%%</span>i <span class="k">in</span> <span class="p">(</span>test.txt<span class="p">)</span>  <span class="k">do</span> <span class="p">(</span>
-<span class="p">:</span><span class="c1">:设置本地为延迟扩展。其实也就是：延迟变量，</span>
-<span class="p">:</span><span class="c1">:开始与终止批处理文件中环境改动的本地化操作。</span>
-<span class="p">:</span><span class="c1">:在执行 Setlocal 之后所做的环境改动只限于批处理文件。</span>
-<span class="p">:</span><span class="c1">:要还原原先的设置，必须执行 Endlocal。</span>
-<span class="k">SetLocal</span> EnableDelayedExpansion
-<span class="p">:</span><span class="c1">:打印读取到的值到控制台</span>
-<span class="k">echo</span> <span class="se">%%</span>i
-<span class="p">:</span><span class="c1">:设置变量str，并设置为%%i的值</span>
-<span class="k">set</span> <span class="nv">str</span><span class="p">=</span><span class="se">%%</span>i
-<span class="p">:</span><span class="c1">:替换str中的from为to</span>
-<span class="k">Set</span> <span class="nv">str</span><span class="p">=</span><span class="nv">!Str:from=to!</span>
-<span class="p">:</span><span class="c1">:将替换后的值写到1.txt</span>
-<span class="k">echo</span> <span class="nv">!str!</span><span class="p">&gt;&gt;</span>1.txt
-<span class="p">:</span><span class="c1">:复制%%i 到 str，取消提示“是文件名还是目录名”，默认选择复制文件f，文件夹d，</span>
-<span class="k">echo</span> f <span class="p">|</span> xcopy <span class="se">%%</span>i <span class="nv">!str!</span> /Y <span class="p">&gt;&gt;</span>log.log
-<span class="k">EndLocal</span>
-<span class="p">)</span>
-<span class="k">echo</span> ------------------结束---------------------
-<span class="p">:</span><span class="c1">:删除文件</span>
-<span class="k">del</span> 1.txt
-<span class="k">echo</span>. <span class="p">&amp;</span> <span class="k">pause</span>
-
-</code></pre></td></tr></table>
-</div>
-</div><p><code>test.txt</code></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">C:\test\from\1\1.txt
-C:\test\from\1\11\11.txt
-C:\test\from\1\11\111\111.txt
-C:\test\from\2\2.txt
-C:\test\from\2\22\22.txt
-C:\test\from\2\22\222\222.txt
-C:\test\from\3\3.txt
-C:\test\from\3\33\33.txt
-C:\test\from\3\33\333\333.txt
-</code></pre></td></tr></table>
-</div>
-</div><p><img src="/image/%E4%BD%BF%E7%94%A8bat%E6%89%B9%E5%A4%84%E7%90%86%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%88%B0%E7%9B%AE%E5%BD%95/Image1.png" alt="Image1"></p>
-<p><img src="/image/%E4%BD%BF%E7%94%A8bat%E6%89%B9%E5%A4%84%E7%90%86%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%88%B0%E7%9B%AE%E5%BD%95/Image2.png" alt="Image2"></p>
+      <h2 id="原因">原因</h2>
+<p>最近因为 Github 偶尔抽风打不开，就想着把博客备份到 Gitee，研究了一下，发现有个功能可以同步 Github，这样的话同时维护两个也没有更麻烦。</p>
+<h2 id="同步操作">同步操作</h2>
+<ol>
+<li>复制 Github Pages 已经搭建完成的博客的仓库地址，<a href="https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8hugo+github-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">博客搭建看这里</a></li>
+</ol>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image1.png" alt="Image1"></p>
+<ol start="2">
+<li>注册 Gitee 账号，新建一个仓库，点击最下方的<strong>导入已有仓库</strong>，并将 Github 仓库链接粘贴，创建仓库。</li>
+</ol>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image2.png" alt="Image2"></p>
+<ol start="3">
+<li>导入完成后，在仓库界面选择 <code>服务---&gt;Gitee Pages</code></li>
+</ol>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image3.png" alt="Image3"></p>
+<ol start="4">
+<li>选择<strong>启动</strong>，可以勾选上强制使用HTTPS，部署成功后会显示 Gitee Pages 网址。</li>
+</ol>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image4.png" alt="Image4"></p>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image5.png" alt="Image5"></p>
+<ol start="5">
+<li>打开网址后可能会发现显示不正常，如下图，原因是因为现在路径不对，解决方法就是在管理界面修改仓库路径为用户名，保存之后在 Gitee Pages 更新部署。</li>
+</ol>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image6.png" alt="Image6"></p>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image7.png" alt="Image7"></p>
+<ol start="6">
+<li>到这已经完成了 Github&mdash;&gt;Gitee 的导入，之后新添加的博客通过同步按钮就可以很方便同步到 Gitee 了。</li>
+</ol>
+<p><img src="/image/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8Github%E5%92%8CGitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Image8.png" alt="Image8"></p>
     </div>
 
     <div class="post-copyright">
@@ -265,7 +199,7 @@ C:\test\from\3\33\333\333.txt
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2021-03-11
+        2021-03-14
         
     </span>
   </p>
@@ -274,17 +208,19 @@ C:\test\from\3\33\333\333.txt
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/bat%E6%89%B9%E5%A4%84%E7%90%86/">bat批处理</a>
-          <a href="/tags/%E6%8A%80%E5%B7%A7/">技巧</a>
+          <a href="/tags/hugo/">Hugo</a>
+          <a href="/tags/github/">Github</a>
+          <a href="/tags/gitee/">Gitee</a>
+          <a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/bat%E6%89%B9%E5%A4%84%E7%90%86%E8%BF%90%E8%A1%8C%E4%B9%B1%E7%A0%81/">
+        <a class="prev" href="/post/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1ezio%E8%89%BE%E5%90%89%E5%A5%A5%E7%9A%84%E6%BC%94%E8%AE%B2/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">bat批处理运行乱码</span>
+            <span class="prev-text nav-default">刺客信条——ezio(艾吉奥)的演讲</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/%E4%BD%BF%E7%94%A8hugo&#43;github-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-            <span class="next-text nav-default">使用Hugo&#43;Github Pages搭建个人博客</span>
+        <a class="next" href="/post/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/">
+            <span class="next-text nav-default">博客园代码高亮自定义</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>

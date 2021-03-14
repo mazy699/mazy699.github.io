@@ -3,28 +3,98 @@
   
   <url>
     <loc>https://mazy699.github.io/categories/</loc>
-    <lastmod>2021-03-13T23:57:34+08:00</lastmod>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/</loc>
-    <lastmod>2021-03-13T23:57:34+08:00</lastmod>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/post/</loc>
-    <lastmod>2021-03-13T23:57:34+08:00</lastmod>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/tags/</loc>
-    <lastmod>2021-03-13T23:57:34+08:00</lastmod>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/categories/%E4%BD%B3%E5%8F%A5%E6%94%B6%E8%97%8F/</loc>
+    <lastmod>2021-03-14T19:18:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/post/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1ezio%E8%89%BE%E5%90%89%E5%A5%A5%E7%9A%84%E6%BC%94%E8%AE%B2/</loc>
+    <lastmod>2021-03-14T19:18:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2021-03-14T19:18:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/%E6%BC%94%E8%AE%B2/</loc>
+    <lastmod>2021-03-14T19:18:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/gitee/</loc>
+    <lastmod>2021-03-14T16:21:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/github/</loc>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/hugo/</loc>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/post/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2021-03-14T16:21:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -44,21 +114,7 @@
   </url>
   
   <url>
-    <loc>https://mazy699.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2021-03-13T23:57:34+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://mazy699.github.io/post/%E6%B2%89%E9%87%8D%E7%9A%84%E6%97%B6%E5%88%BB/</loc>
-    <lastmod>2021-03-12T21:15:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://mazy699.github.io/categories/%E4%BD%B3%E5%8F%A5%E6%94%B6%E8%97%8F/</loc>
     <lastmod>2021-03-12T21:15:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -100,22 +156,8 @@
   </url>
   
   <url>
-    <loc>https://mazy699.github.io/tags/github/</loc>
-    <lastmod>2021-02-10T23:17:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://mazy699.github.io/tags/hugo/</loc>
-    <lastmod>2021-02-10T23:17:19+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8hugo&#43;github-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2021-02-10T23:17:19+08:00</lastmod>
+    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
