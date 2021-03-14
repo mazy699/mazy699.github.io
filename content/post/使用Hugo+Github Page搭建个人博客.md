@@ -1,11 +1,11 @@
 ---
-title: "使用Hugo+Github Page搭建个人博客"
+title: "使用Hugo+Github Pages搭建个人博客"
 date: 2021-02-10T23:17:19+08:00
-lastmod: 2021-02-10T23:17:19+08:00
+lastmod: 2021-03-14T23:17:49+08:00
 draft: false
-keywords: ["Hugo","Github Page","博客"]
-description: "使用Hugo+Github Page搭建个人博客"
-tags: ["Hugo","Github"]
+keywords: ["Hugo","Github","博客"]
+description: "使用Hugo+Github Pages搭建个人博客"
+tags: ["Hugo","Github","博客"]
 categories: ["经验心得"]
 author: ""
 
@@ -40,7 +40,7 @@ sequenceDiagrams:
 typora-root-url: ..\..\static
 ---
 
-记录一下在使用Hugo+Github Page搭建个人博客的过程，以及碰到的问题和解决方法。
+记录一下在使用Hugo+Github Pages搭建个人博客的过程，以及碰到的问题和解决方法。
 
 <!--more-->
 
@@ -60,7 +60,7 @@ typora-root-url: ..\..\static
 
 参照[官方安装文档](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)，安装完关联Github还需要设定config，ssh免密码之类的，这部分网上教程比较多，自己搜索一下。
 
-### 注册Github Page
+### 注册Github Pages
 
 参照[使用 GitHub Pages](https://docs.github.com/cn/github/working-with-github-pages)，官方的文档有中文（网页右上角有切换语言选项），也介绍的比较详细。
 
@@ -140,7 +140,7 @@ Press Ctrl+C to stop
 $ git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 ```
 
-[主题使用说明](https://github.com/olOwOlo/hugo-theme-even/blob/master/README-zh.md)，参照此说明配置完成后，再次预览就可看到主题已经应用成功。
+主题使用说明 [wiki](https://github.com/ahonn/hexo-theme-even/wiki)，参照此说明配置完成后，再次预览就可看到主题已经应用成功。
 
 使用过程碰到的问题可以在主题下的 [issues](https://github.com/olOwOlo/hugo-theme-even/issues) 查找是否有相似的问题，大部分问题可能已经closed。
 
@@ -150,7 +150,7 @@ $ git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 
 可以通过部署到GitHub上进行管理，这样可以在网上查看，而且不会丢失文件。
 
-前提：既然要部署到GitHub，那么就需要有一个GitHub账号，并且创建`GitHub Page`。创建过程参考官方文档[创建 GitHub Pages 站点](https://docs.github.com/cn/github/working-with-github-pages/creating-a-github-pages-site)
+前提：既然要部署到GitHub，那么就需要有一个GitHub账号，并且创建`GitHub Pages`。创建过程参考官方文档[创建 GitHub Pages 站点](https://docs.github.com/cn/github/working-with-github-pages/creating-a-github-pages-site)
 
 命令行执行
 
@@ -172,9 +172,9 @@ Start building sites …
 Total in 474 ms
 ```
 
-站点根目录下生成`public`目录，将此目录下文件推送到GitHub Page仓库的`master`分支。
+站点根目录下生成`public`目录，将此目录下文件推送到GitHub Pages仓库的`master`分支。
 
-此外还需要将站点根目录下文件推送到GitHub Page仓库的`hugo`分支，当然也可以新建仓库存放。
+此外还需要将站点根目录下文件推送到GitHub Pages仓库的`hugo`分支，当然也可以新建仓库存放。
 
 根目录下`themes` 可以通过添加子模块与站点总仓库（hugo分支）关联，例如使用主题hugo-theme-even时
 
@@ -182,7 +182,7 @@ Total in 474 ms
 $git submodule add https://github.com/olOwOlo/hugo-theme-even.git themes/even
 ```
 
-`public`推送成功后，可以在个人的GitHub Page页面查看到自己博客，[我的博客](https://mazy699.github.io/)
+`public`推送成功后，可以在个人的GitHub Pages页面查看到自己博客，[我的博客](https://mazy699.github.io/)
 
 ## 后续
 
