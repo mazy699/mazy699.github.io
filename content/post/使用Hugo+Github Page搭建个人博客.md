@@ -152,7 +152,7 @@ $ git clone https://github.com/olOwOlo/hugo-theme-even themes/even
 
 前提：既然要部署到GitHub，那么就需要有一个GitHub账号，并且创建`GitHub Pages`。创建过程参考官方文档[创建 GitHub Pages 站点](https://docs.github.com/cn/github/working-with-github-pages/creating-a-github-pages-site)
 
-命令行执行
+命令行执行，执行前将文章的草稿状态从true改为false `draft: false`
 
 ```shell
 $hugo
