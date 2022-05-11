@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mazy——有点意思的博客</title>
-    <link>https://mazy699.github.io/</link>
-    <description>Recent content on Mazy——有点意思的博客</description>
+    <title>LeetCode on Mazy——有点意思的博客</title>
+    <link>https://mazy699.github.io/categories/leetcode/</link>
+    <description>Recent content in LeetCode on Mazy——有点意思的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://mazy699.github.io/about/&#34; class=&#34;theme-link&#34;&gt;Mazy——有点意思的博客&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 11 May 2022 22:46:42 +0800</lastBuildDate><atom:link href="https://mazy699.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 May 2022 22:46:42 +0800</lastBuildDate><atom:link href="https://mazy699.github.io/categories/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>搜索插入位置</title>
       <link>https://mazy699.github.io/post/%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE/</link>
@@ -141,92 +141,6 @@
       
       <guid>https://mazy699.github.io/post/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>刺客信条——ezio(艾吉奥)的演讲</title>
-      <link>https://mazy699.github.io/post/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1ezio%E8%89%BE%E5%90%89%E5%A5%A5%E7%9A%84%E6%BC%94%E8%AE%B2/</link>
-      <pubDate>Sun, 14 Mar 2021 19:18:34 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1ezio%E8%89%BE%E5%90%89%E5%A5%A5%E7%9A%84%E6%BC%94%E8%AE%B2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>同时使用Github和Gitee搭建个人博客</title>
-      <link>https://mazy699.github.io/post/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Sun, 14 Mar 2021 16:21:57 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>博客园代码高亮自定义</title>
-      <link>https://mazy699.github.io/post/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/</link>
-      <pubDate>Sat, 13 Mar 2021 23:57:34 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E8%87%AA%E5%AE%9A%E4%B9%89/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>《沉重的时刻》</title>
-      <link>https://mazy699.github.io/post/%E6%B2%89%E9%87%8D%E7%9A%84%E6%97%B6%E5%88%BB/</link>
-      <pubDate>Fri, 12 Mar 2021 21:15:55 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/%E6%B2%89%E9%87%8D%E7%9A%84%E6%97%B6%E5%88%BB/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>《如果没有李白》</title>
-      <link>https://mazy699.github.io/post/%E5%A6%82%E6%9E%9C%E6%B2%A1%E6%9C%89%E6%9D%8E%E7%99%BD/</link>
-      <pubDate>Fri, 12 Mar 2021 21:06:41 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/%E5%A6%82%E6%9E%9C%E6%B2%A1%E6%9C%89%E6%9D%8E%E7%99%BD/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bat批处理运行乱码</title>
-      <link>https://mazy699.github.io/post/bat%E6%89%B9%E5%A4%84%E7%90%86%E8%BF%90%E8%A1%8C%E4%B9%B1%E7%A0%81/</link>
-      <pubDate>Fri, 12 Mar 2021 20:46:50 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/bat%E6%89%B9%E5%A4%84%E7%90%86%E8%BF%90%E8%A1%8C%E4%B9%B1%E7%A0%81/</guid>
-      <description>&lt;p&gt;bat批处理运行时乱码的解决方法&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>使用bat批处理复制文件到目录</title>
-      <link>https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8bat%E6%89%B9%E5%A4%84%E7%90%86%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%88%B0%E7%9B%AE%E5%BD%95/</link>
-      <pubDate>Thu, 11 Mar 2021 23:09:08 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8bat%E6%89%B9%E5%A4%84%E7%90%86%E5%A4%8D%E5%88%B6%E6%96%87%E4%BB%B6%E5%88%B0%E7%9B%AE%E5%BD%95/</guid>
-      <description>&lt;p&gt;使用bat批处理读取txt文件中的文件名list，并将文件复制到指定目录下。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>使用Hugo&#43;Github Pages搭建个人博客</title>
-      <link>https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8hugo&#43;github-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Wed, 10 Feb 2021 23:17:19 +0800</pubDate>
-      
-      <guid>https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8hugo&#43;github-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>&lt;p&gt;记录一下在使用Hugo+Github Pages搭建个人博客的过程，以及碰到的问题和解决方法。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://mazy699.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mazy699.github.io/about/</guid>
-      <description>代码、游戏、影视、小说
-目标——有点意思的博客
- 博客园
-语雀
-GIthub Page
-Gitee Page</description>
     </item>
     
   </channel>

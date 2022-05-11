@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>刺客信条——ezio(艾吉奥)的演讲 - Mazy——有点意思的博客</title>
+  <title>回文数 - Mazy——有点意思的博客</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Mazy" /><meta name="description" content="" /><meta name="keywords" content="刺客信条" />
+<meta name="author" content="Mazy" /><meta name="description" content="" /><meta name="keywords" content="LeetCode" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.80.0 with theme even" />
 
 
-<link rel="canonical" href="https://mazy699.github.io/post/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1ezio%E8%89%BE%E5%90%89%E5%A5%A5%E7%9A%84%E6%BC%94%E8%AE%B2/" />
+<link rel="canonical" href="https://mazy699.github.io/post/%E5%9B%9E%E6%96%87%E6%95%B0/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,23 +39,23 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="刺客信条——ezio(艾吉奥)的演讲" />
+<meta property="og:title" content="回文数" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://mazy699.github.io/post/%E5%88%BA%E5%AE%A2%E4%BF%A1%E6%9D%A1ezio%E8%89%BE%E5%90%89%E5%A5%A5%E7%9A%84%E6%BC%94%E8%AE%B2/" />
-<meta property="article:published_time" content="2021-03-14T19:18:34+08:00" />
-<meta property="article:modified_time" content="2021-03-14T19:18:34+08:00" />
-<meta itemprop="name" content="刺客信条——ezio(艾吉奥)的演讲">
+<meta property="og:url" content="https://mazy699.github.io/post/%E5%9B%9E%E6%96%87%E6%95%B0/" />
+<meta property="article:published_time" content="2022-05-11T22:41:53+08:00" />
+<meta property="article:modified_time" content="2022-05-11T22:41:53+08:00" />
+<meta itemprop="name" content="回文数">
 <meta itemprop="description" content="">
-<meta itemprop="datePublished" content="2021-03-14T19:18:34+08:00" />
-<meta itemprop="dateModified" content="2021-03-14T19:18:34+08:00" />
-<meta itemprop="wordCount" content="220">
+<meta itemprop="datePublished" content="2022-05-11T22:41:53+08:00" />
+<meta itemprop="dateModified" content="2022-05-11T22:41:53+08:00" />
+<meta itemprop="wordCount" content="684">
 
 
 
-<meta itemprop="keywords" content="游戏,演讲," />
+<meta itemprop="keywords" content="LeetCode," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="刺客信条——ezio(艾吉奥)的演讲"/>
+<meta name="twitter:title" content="回文数"/>
 <meta name="twitter:description" content=""/>
 
 <!--[if lte IE 9]>
@@ -133,49 +133,129 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">刺客信条——ezio(艾吉奥)的演讲</h1>
+      <h1 class="post-title">回文数</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-03-14 </span>
+        <span class="post-time"> 2022-05-11 </span>
         <div class="post-category">
-            <a href="/categories/%E4%BD%B3%E5%8F%A5%E6%94%B6%E8%97%8F/"> 佳句收藏 </a>
+            <a href="/categories/leetcode/"> LeetCode </a>
             </div>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
     </header>
 
-    
-  <div class="post-outdated">
-    <div class="warn">
-      <p>【注意】最后更新于 <span class="timeago" datetime="2021-03-14T19:18:34" title="March 14, 2021">March 14, 2021</span>，文中内容可能已过时，请谨慎使用。</p>
-    </div>
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#回文数">回文数</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#题目">题目</a></li>
+            <li><a href="#解题方法">解题方法</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
+</div>
     <div class="post-content">
-      <blockquote>
-<p>Twenty-two years ago,</p>
-<p>I stood where I stand now and watched my loved ones die,</p>
-<p>betrayed by those I had called friends.</p>
-<p>Vengeance clouded my mind.</p>
-<p>It would have consumed me</p>
-<p>were it not for the wisdom of a few strangers</p>
-<p>who taught me to look past my instincts.</p>
-<p>They never preached answers, but guided me to learn from myself.</p>
-<p>We don&rsquo;t need anyone to tell us what to do.</p>
-<p>Not Savonarola, not the Medici.</p>
-<p>We are free to follow our own path.</p>
-<p>There are those who will take that freedom from us,</p>
-<p>and too many of you gladly give it.</p>
-<p>But it is our ability to choose</p>
-<p>whatever you think is true</p>
-<p>that makes us human.</p>
-<p>There is no book or teacher to give you the answers,</p>
-<p>to show you the path.</p>
-<p>Choose your own way!</p>
-<p>Do not follow me,</p>
-<p>Or anyone else.</p>
+      <h1 id="回文数">回文数</h1>
+<h3 id="题目">题目</h3>
+<blockquote>
+<p>判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p>
+<p>示例 1:</p>
+<p>输入: 121
+输出: true
+示例 2:</p>
+<p>输入: -121
+输出: false
+解释: 从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。
+示例 3:</p>
+<p>输入: 10
+输出: false
+解释: 从右向左读, 为 01 。因此它不是一个回文数。
+进阶:</p>
+<p>你能不将整数转为字符串来解决这个问题吗？</p>
+<p>来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/palindrome-number
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。</p>
 </blockquote>
-<p>以前玩刺客信条时，这段演讲正好是老色鬼大仇得报之后，游戏也到了末尾，这段演讲正好进行了一个回顾和总结。</p>
-<p>不得不说，ezio 真的是一个很有吸引力的游戏人物。</p>
+<hr>
+<h3 id="解题方法">解题方法</h3>
+<ul>
+<li>将 后半段数字进行反转，与前半段比较。
+<ul>
+<li>通过 <strong>x%10</strong> 得到末位的值。</li>
+<li>将末位的值加到反转的值；<strong>revertedNumber = revertedNumber * 10 + x % 10</strong></li>
+<li>通过 <strong>x/10</strong> 得到末位之外的值。</li>
+<li>循环上面操作，直到 <strong>x&lt;=revertedNumber</strong> ,此时数字对半了。</li>
+<li>最后判断奇偶数位：
+<ul>
+<li>偶数位：直接判断 <strong>x</strong>是否等于 <strong>revertedNumber</strong> 。</li>
+<li>奇数位：最中间的数字在 <strong>revertedNumber</strong> 的最后一位，判断 <strong>x</strong> 是否等于 <strong>revertedNumber/10</strong> 。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">IsPalindrome</span><span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">boolean</span> <span class="nf">isPalindrome</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
+        <span class="c1">// 特殊情况：
+</span><span class="c1"></span>        <span class="c1">// 如上所述，当 x &lt; 0 时，x 不是回文数。
+</span><span class="c1"></span>        <span class="c1">// 同样地，如果数字的最后一位是 0，为了使该数字为回文，
+</span><span class="c1"></span>        <span class="c1">// 则其第一位数字也应该是 0
+</span><span class="c1"></span>        <span class="c1">// 只有 0 满足这一属性
+</span><span class="c1"></span>        <span class="k">if</span> <span class="o">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="n">0</span> <span class="o">||</span> <span class="o">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">10</span> <span class="o">==</span> <span class="n">0</span> <span class="o">&amp;&amp;</span> <span class="n">x</span> <span class="o">!=</span> <span class="n">0</span><span class="o">))</span> <span class="o">{</span>
+            <span class="k">return</span> <span class="kc">false</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="kt">int</span> <span class="n">revertedNumber</span> <span class="o">=</span> <span class="n">0</span><span class="o">;</span>
+        <span class="k">while</span> <span class="o">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">revertedNumber</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">revertedNumber</span> <span class="o">=</span> <span class="n">revertedNumber</span> <span class="o">*</span> <span class="n">10</span> <span class="o">+</span> <span class="n">x</span> <span class="o">%</span> <span class="n">10</span><span class="o">;</span>
+            <span class="n">x</span> <span class="o">/=</span> <span class="n">10</span><span class="o">;</span>
+        <span class="o">}</span>
+
+        <span class="c1">// 当数字长度为奇数时，我们可以通过 revertedNumber/10 去除处于中位的数字。
+</span><span class="c1"></span>        <span class="c1">// 例如，当输入为 12321 时，在 while 循环的末尾我们可以得到 x = 12，revertedNumber = 123，
+</span><span class="c1"></span>        <span class="c1">// 由于处于中位的数字不影响回文（它总是与自己相等），所以我们可以简单地将其去除。
+</span><span class="c1"></span>        <span class="k">return</span> <span class="n">x</span> <span class="o">==</span> <span class="n">revertedNumber</span> <span class="o">||</span> <span class="n">x</span> <span class="o">==</span> <span class="n">revertedNumber</span> <span class="o">/</span> <span class="n">10</span><span class="o">;</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     <div class="post-copyright">
@@ -186,7 +266,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2021-03-14
+        2022-05-11
         
     </span>
   </p>
@@ -195,17 +275,16 @@
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/%E6%B8%B8%E6%88%8F/">游戏</a>
-          <a href="/tags/%E6%BC%94%E8%AE%B2/">演讲</a>
+          <a href="/tags/leetcode/">LeetCode</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C/">
+        <a class="prev" href="/post/%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">两数之和</span>
+            <span class="prev-text nav-default">整数反转</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/%E5%90%8C%E6%97%B6%E4%BD%BF%E7%94%A8github%E5%92%8Cgitee%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-            <span class="next-text nav-default">同时使用Github和Gitee搭建个人博客</span>
+        <a class="next" href="/post/%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0/">
+            <span class="next-text nav-default">移除元素</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
