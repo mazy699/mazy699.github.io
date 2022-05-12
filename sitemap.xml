@@ -3,28 +3,63 @@
   
   <url>
     <loc>https://mazy699.github.io/categories/</loc>
-    <lastmod>2022-05-12T17:40:45+08:00</lastmod>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/github/</loc>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/</loc>
-    <lastmod>2022-05-12T17:40:45+08:00</lastmod>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/picgo/</loc>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/post/</loc>
-    <lastmod>2022-05-12T17:40:45+08:00</lastmod>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://mazy699.github.io/tags/</loc>
-    <lastmod>2022-05-12T17:40:45+08:00</lastmod>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8github&#43;picgo%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</loc>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/tags/%E5%9B%BE%E5%BA%8A/</loc>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://mazy699.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2022-05-12T19:17:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,13 +73,6 @@
   
   <url>
     <loc>https://mazy699.github.io/post/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BD%AF%E4%BB%B6%E5%A4%A7%E7%A7%91%E6%99%AE/</loc>
-    <lastmod>2022-05-12T17:40:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://mazy699.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%BF%83%E5%BE%97/</loc>
     <lastmod>2022-05-12T17:40:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -200,13 +228,6 @@
   <url>
     <loc>https://mazy699.github.io/tags/gitee/</loc>
     <lastmod>2021-03-14T16:21:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://mazy699.github.io/tags/github/</loc>
-    <lastmod>2021-03-14T23:17:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
