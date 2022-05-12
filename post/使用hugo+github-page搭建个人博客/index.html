@@ -44,12 +44,12 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8hugo&#43;github-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
 <meta property="article:published_time" content="2021-02-10T23:17:19+08:00" />
-<meta property="article:modified_time" content="2021-03-14T23:17:49+08:00" />
+<meta property="article:modified_time" content="2022-05-12T19:31:49+08:00" />
 <meta itemprop="name" content="使用Hugo&#43;Github Pages搭建个人博客">
 <meta itemprop="description" content="使用Hugo&#43;Github Pages搭建个人博客">
 <meta itemprop="datePublished" content="2021-02-10T23:17:19+08:00" />
-<meta itemprop="dateModified" content="2021-03-14T23:17:49+08:00" />
-<meta itemprop="wordCount" content="1695">
+<meta itemprop="dateModified" content="2022-05-12T19:31:49+08:00" />
+<meta itemprop="wordCount" content="1715">
 
 
 
@@ -181,11 +181,6 @@
 </nav>
   </div>
 </div>
-  <div class="post-outdated">
-    <div class="warn">
-      <p>【注意】最后更新于 <span class="timeago" datetime="2021-03-14T23:17:49" title="March 14, 2021">March 14, 2021</span>，文中内容可能已过时，请谨慎使用。</p>
-    </div>
-  </div>
     <div class="post-content">
       <p>记录一下在使用Hugo+Github Pages搭建个人博客的过程，以及碰到的问题和解决方法。</p>
 <p>开始准备用Hexo搭建的，但是部署的时候push不到Github，就换Hugo了。</p>
@@ -366,9 +361,14 @@ Total in <span class="m">474</span> ms
 </div><p><code>public</code>推送成功后，可以在个人的GitHub Pages页面查看到自己博客，<a href="https://mazy699.github.io/">我的博客</a></p>
 <h2 id="后续">后续</h2>
 <h3 id="图片问题">图片问题</h3>
-<p>本地使用<strong>Typora</strong>给博客插入图片时，会有一个路径问题，图片放在 根目录下<code>static/image</code>目录下，如果在md文件引用是使用相对路径<code>../../static/image/github.jpg</code> ，写博客时可以看到图片，部署之后看不到图片。</p>
-<p>解决方法：<strong>Typora</strong> 设置图片根目录为<code>..\..\static</code>，引用时<code>image/github.jpg</code>这样就可以编辑时看到图片，部署后也正常显示图片。</p>
+<ul>
+<li>改为<a href="https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8github+picgo%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/">使用Github+PicGo搭建图床</a></li>
+</ul>
+<p><del>本地使用<strong>Typora</strong>给博客插入图片时，会有一个路径问题，图片放在 根目录下<code>static/image</code>目录下，如果在md文件引用是使用相对路径<code>../../static/image/github.jpg</code> ，写博客时可以看到图片，部署之后看不到图片。</del></p>
+<p><del>解决方法：<strong>Typora</strong> 设置图片根目录为<code>..\..\static</code>，引用时<code>image/github.jpg</code>这样就可以编辑时看到图片，部署后也正常显示图片。</del></p>
+<hr>
 <p><img src="https://cdn.jsdelivr.net/gh/mazy699/PicGo@main/img/202205121800203.png" alt=""></p>
+<hr>
 <h3 id="git工具">Git工具</h3>
 <p>通过 <strong>GIt</strong> 推送博客时，命令行使用不习惯的话，可以使用 <a href="https://git-fork.com/">fork</a>，很方便好用。</p>
 <h2 id="参考">参考</h2>
@@ -387,7 +387,7 @@ Total in <span class="m">474</span> ms
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2021-03-14
+        2022-05-12
         
     </span>
   </p>
