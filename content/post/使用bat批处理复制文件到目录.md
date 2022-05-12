@@ -99,6 +99,6 @@ C:\test\from\3\33\33.txt
 C:\test\from\3\33\333\333.txt
 ```
 
-![Image1](/image/使用bat批处理复制文件到目录/Image1.png)
+![](https://cdn.jsdelivr.net/gh/mazy699/PicGo@main/img/202205121756537.png)
 
-![Image2](/image/使用bat批处理复制文件到目录/Image2.png)
+![](https://cdn.jsdelivr.net/gh/mazy699/PicGo@main/img/202205121757719.png)

@@ -192,7 +192,7 @@ $git submodule add https://github.com/olOwOlo/hugo-theme-even.git themes/even
 
 解决方法：**Typora** 设置图片根目录为`..\..\static`，引用时`image/github.jpg`这样就可以编辑时看到图片，部署后也正常显示图片。
 
-![Typora图片根目录设定](/image/使用Hugo+GithubPage搭建个人博客/Typora图片根目录设定.png)
+![](https://cdn.jsdelivr.net/gh/mazy699/PicGo@main/img/202205121800203.png)
 
 ### Git工具
 

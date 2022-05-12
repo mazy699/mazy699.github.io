@@ -63,7 +63,7 @@ echo ------------------结束---------------------
 echo. & pause
 ```
 
-![Image1](/image/bat批处理运行乱码/Image1.png)
+![](https://cdn.jsdelivr.net/gh/mazy699/PicGo@main/img/202205121801443.png)
 
 ## 解决方法
 
@@ -86,7 +86,7 @@ echo ------------------结束---------------------
 echo. & pause
 ```
 
-![Image2](/image/bat批处理运行乱码/Image2.png)
+![](https://cdn.jsdelivr.net/gh/mazy699/PicGo@main/img/202205121802355.png)
 
 ## 拓展
 
