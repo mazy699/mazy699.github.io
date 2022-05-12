@@ -1,7 +1,7 @@
 ---
 title: "使用Hugo+Github Pages搭建个人博客"
 date: 2021-02-10T23:17:19+08:00
-lastmod: 2021-03-14T23:17:49+08:00
+lastmod: 2022-05-12T19:31:49+08:00
 draft: false
 keywords: ["Hugo","Github","博客"]
 description: "使用Hugo+Github Pages搭建个人博客"
@@ -188,11 +188,16 @@ $git submodule add https://github.com/olOwOlo/hugo-theme-even.git themes/even
 
 ### 图片问题
 
-本地使用**Typora**给博客插入图片时，会有一个路径问题，图片放在 根目录下`static/image`目录下，如果在md文件引用是使用相对路径`../../static/image/github.jpg` ，写博客时可以看到图片，部署之后看不到图片。
++ 改为[使用Github+PicGo搭建图床](https://mazy699.github.io/post/%E4%BD%BF%E7%94%A8github+picgo%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/)
 
-解决方法：**Typora** 设置图片根目录为`..\..\static`，引用时`image/github.jpg`这样就可以编辑时看到图片，部署后也正常显示图片。
+~~本地使用**Typora**给博客插入图片时，会有一个路径问题，图片放在 根目录下`static/image`目录下，如果在md文件引用是使用相对路径`../../static/image/github.jpg` ，写博客时可以看到图片，部署之后看不到图片。~~
 
+~~解决方法：**Typora** 设置图片根目录为`..\..\static`，引用时`image/github.jpg`这样就可以编辑时看到图片，部署后也正常显示图片。~~
+
+---
 ![](https://cdn.jsdelivr.net/gh/mazy699/PicGo@main/img/202205121800203.png)
+
+---
 
 ### Git工具
 
