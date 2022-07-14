@@ -10,4 +10,4 @@
 
 [GIthub Page](https://mazy699.github.io/)
 
-[Gitee Page](https://mazy699.gitee.io/)
+[~~Gitee Page~~](https://mazy699.gitee.io/)（由于Gitee开源项目审查制度，Gitee Page现已无法同步）
