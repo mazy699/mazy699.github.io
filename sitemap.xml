@@ -381,7 +381,9 @@
   
   <url>
     <loc>https://mazy699.github.io/about/</loc>
-    <priority>0</priority>
+    <lastmod>2022-07-14T14:40:54+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
