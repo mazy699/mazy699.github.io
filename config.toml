@@ -6,7 +6,7 @@ preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
-enableGitInfo = false # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
+enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsOptions = "linenos=table"
@@ -97,7 +97,7 @@ copyright = '<a href="https://mazy699.github.io/about/" class="theme-link">Mazy�
 
   postMetaInFooter = true   # contain author, lastMod, markdown link, license           # 包含作者，上次修改时间，markdown链接，许可信息
   linkToMarkDown = false    # Only effective when hugo will output .md files.           # 链接到markdown原始文件（仅当允许hugo生成markdown文件时有效）
-  contentCopyright = ''     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  contentCopyright = 'CC BY-NC-ND 4.0'     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
   changyanAppid = ""        # Changyan app id             # 畅言
   changyanAppkey = ""       # Changyan app key
@@ -187,7 +187,7 @@ copyright = '<a href="https://mazy699.github.io/about/" class="theme-link">Mazy�
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:mazhongyuan699@gmail.com"
+    a-email = "mailto:mazhongyuan699@outlook.com"
     #b-stack-overflow = "http://localhost:1313"
     #c-twitter = "http://localhost:1313"
     #d-facebook = "http://localhost:1313"
